@@ -8,6 +8,7 @@ public class Main {
         int res = summ + balans;
         if (res > limit) {
             System.out.println("Сумма на счету: " + ( res + bonus));
+            System.out.println("Сумма бонусов: " + bonus);
         }
         else {
             System.out.println("Сумма на счету: " + (summ + balans));
